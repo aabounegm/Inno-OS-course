@@ -1,0 +1,321 @@
+    1  sudo apt update
+    2  passwd
+    3  sudo apt upgrade
+    4  exit
+    5  ssh-keygen -o -t rsa -b 4096 -C "abounegm.abdelrahman@gmail.com"
+    6  ls
+    7  ls -al
+    8  cd .ssh/
+    9  ls
+   10  rm *
+   11  cd ..
+   12  rmdir .ssh
+   13  ls
+   14  ls -al
+   15  gcc
+   16  exiy
+   17  exit
+   18  g++
+   19  gcc
+   20  ls
+   21  cd ..
+   22  l;s
+   23  ls
+   24  cd /mnt
+   25  ls
+   26  cd c
+   27  cd Desktop
+   28  ls
+   29  docker
+   30  exit
+   31  history
+   32  clear
+   33  ls
+   34  ls ..
+   35  ls ../..
+   36  ls ../../mnt/
+   37  ls ../../mnt/c/
+   38  cd ../../mnt/c/Users/
+   39  ls
+   40  cd Default/
+   41  ls
+   42  ls Desktop/
+   43  cd ..
+   44  ls
+   45  cd aabou/
+   46  cd Desktop/
+   47  ls
+   48  gcc a.c
+   49  sudo apt install gcc
+   50  gcc a.c
+   51  sudo apt install gcc
+   52  sudo apt update
+   53  sudo apt install gcc
+   54  gcc a.c
+   55  ./a.out
+   56  sudo apt remove gcc
+   57  sudo apt uninstal gcc
+   58  sudo apt remove gcc
+   59  sudo apt upgrade
+   60  exit
+   61  make
+   62  wildcard
+   63  ls
+   64  dir
+   65  pwd
+   66  ls
+   67  ls | grep "*.c"
+   68  ls | grep *.c
+   69  ls > grep *.c
+   70  ls > grep c
+   71  ls | grep c
+   72  ls | grep .c
+   73  ls | grep .c$
+   74  ls | grep .c |  sed 's/ /\\ /g'
+   75  lsusb
+   76  dmesg
+   77  lsblk
+   78  blkid
+   79  usb-devices
+   80  grep abc c
+   81  grep "abc" c
+   82  grep "abc" "c"
+   83  grep "abc"
+   84  grep "abc" "abc"
+   85  exit
+   86  echo "hello.x" | sed 's/.c/.exe/g'
+   87  echo "hello.c" | sed 's/.c/.exe/g'
+   88  echo hello.c | sed 's/.c/.exe/g'
+   89  hello.c | sed 's/.c/.exe/g'
+   90  "hello.c" | sed 's/.c/.exe/g'
+   91  echo hello.c | sed 's/.c/.exe/g'
+   92  echo echo hello.c | sed 's/.c/.exe/g'
+   93  echo echo hello.c | sed 's/\.c/\.exe/g'
+   94  echo echo hello.c | sed 's/\.c/\.exe/g'ls
+   95  ls
+   96  ls .
+   97  rename
+   98  prename
+   99  mv
+  100  mv *.c.exe *.exe
+  101  mv "*.c.exe" "*.exe"
+  102  mv *.c.exe "*.exe"
+  103  ls . | grep .c.exe$
+  104  ls . | grep .c.exe$ | sed 's/ /?/g'
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd mnt/d
+  111  ls
+  112  ./tester.sh
+  113  ./tester.sh 
+  114  valgrinf
+  115  valgrind
+  116  sudo apt install valgrind
+  117  ./tester.sh
+  118  valgrind
+  119  valgrind Assignment.exe
+  120  valgrind --help
+  121  gcc
+  122  sudo apt uninstall valgrind
+  123  sudo apt remove valgrind
+  124  sudo apt autoremove
+  125  sudo apt install gcc valgrind
+  126  sudo apt install gcc valgrind --fix0missing
+  127  sudo apt --fix-missing
+  128  sudo apt update
+  129  sudo apt install gcc valgrind --fix-missing
+  130  gcc
+  131  valgrind
+  132  ./r.sh 
+  133  exit
+  134  mv *.clue *.clue2
+  135  for i in {1..30} do echo "$i" done; a
+  136  for i in {1..30} do echo "$i" done
+  137  sh r.sh 
+  138  ./r.sh 
+  139  exit
+  140  diff 1.clue AbdelrahmanAbounegmOutput1.txt 
+  141  diff 2.clue AbdelrahmanAbounegmOutput2.txt 
+  142  sdiff 2.clue AbdelrahmanAbounegmOutput2.txt 
+  143  sdiff 6.clue AbdelrahmanAbounegmOutput6.txt 
+  144  diff 6.clue AbdelrahmanAbounegmOutput6.txt 
+  145  sdiff 8.clue AbdelrahmanAbounegmOutput8.txt 
+  146  sdiff 9.clue AbdelrahmanAbounegmOutput9.txt 
+  147  sdiff 7.clue AbdelrahmanAbounegmOutput7.txt 
+  148  sdiff 10.clue AbdelrahmanAbounegmOutput10.txt 
+  149  sdiff 11.clue AbdelrahmanAbounegmOutput11.txt 
+  150  sdiff 12.clue AbdelrahmanAbounegmOutput12.txt 
+  151  sdiff 13.clue AbdelrahmanAbounegmOutput13.txt 
+  152  diff -c 13.clue AbdelrahmanAbounegmOutput13.txt 
+  153  diff -c 7.clue AbdelrahmanAbounegmOutput7.txt 
+  154  sdiff -c 7.clue AbdelrahmanAbounegmOutput7.txt 
+  155  sdiff 7.clue AbdelrahmanAbounegmOutput7.txt 
+  156  ./tester.sh 
+  157  gcc AbdelrahmanAbounegm.c
+  158  ./a.out 
+  159  valgrind a.out
+  160  valgrind
+  161  valgrind a
+  162  valgrind --help
+  163  gcc AbdelrahmanAbounegm.c -g
+  164  valgrind --leak-check=yes a.out
+  165  valgrind --leak-check=yes ./a.out
+  166  gcc AbdelrahmanAbounegm.c -g
+  167  valgrind --leak-check=yes ./a.out
+  168  gcc AbdelrahmanAbounegm.c -g
+  169  valgrind --leak-check=yes ./a.out
+  170  ./a.out 
+  171  gcc AbdelrahmanAbounegm.c -g
+  172  ./a.out 
+  173  gcc AbdelrahmanAbounegm.c -g
+  174  ./a.out 
+  175  valgrind --leak-check=yes ./a.out
+  176  valgrind --leak-check=full ./a.out
+  177  gcc AbdelrahmanAbounegm.c -g
+  178  ./a.out 
+  179  valgrind --leak-check=full ./a.out
+  180  gcc AbdelrahmanAbounegm.c -g
+  181  valgrind --leak-check=full ./a.out
+  182  ./a.out 
+  183  valgrind --leak-check=full ./a.out
+  184  gcc AbdelrahmanAbounegm.c -g
+  185  valgrind --leak-check=full ./a.out
+  186  ./a.out 
+  187  gcc AbdelrahmanAbounegm.c -g
+  188  ./a.out 
+  189  gcc AbdelrahmanAbounegm.c -g
+  190  ./a.out 
+  191  gcc AbdelrahmanAbounegm.c -g
+  192  ./a.out 
+  193  gcc AbdelrahmanAbounegm.c -g
+  194  ./a.out 
+  195  valgrind --leak-check=full ./a.out
+  196  gcc AbdelrahmanAbounegm.c -g
+  197  valgrind --leak-check=full ./a.out
+  198  cd tests/
+  199  ./tester.sh 
+  200  sh ./tester.sh 
+  201  cd ..
+  202  valgrind --leak-check=full ./a.out -v
+  203  gcc AbdelrahmanAbounegm.c -g
+  204  valgrind --leak-check=full ./a.out -v
+  205  gcc AbdelrahmanAbounegm.c -g
+  206  valgrind --leak-check=full ./a.out -v
+  207  gcc AbdelrahmanAbounegm.c -g
+  208  valgrind --leak-check=full ./a.out -v
+  209  gcc AbdelrahmanAbounegm.c -g
+  210  valgrind --leak-check=full ./a.out -v
+  211  gcc AbdelrahmanAbounegm.c -g
+  212  valgrind --leak-check=full ./a.out -v
+  213  gcc AbdelrahmanAbounegm.c -g
+  214  valgrind --leak-check=full ./a.out -v
+  215  gcc AbdelrahmanAbounegm.c -g
+  216  valgrind --leak-check=full ./a.out -v
+  217  gcc AbdelrahmanAbounegm.c -g
+  218  valgrind --leak-check=full ./a.out -v
+  219  gcc AbdelrahmanAbounegm.c -g
+  220  valgrind --leak-check=full ./a.out -v
+  221  gcc AbdelrahmanAbounegm.c -g
+  222  valgrind --leak-check=full ./a.out -v
+  223  gcc AbdelrahmanAbounegm.c -g
+  224  valgrind --leak-check=full ./a.out -v
+  225  gcc AbdelrahmanAbounegm.c -g
+  226  valgrind --leak-check=full ./a.out -v
+  227  gcc AbdelrahmanAbounegm.c -g
+  228  valgrind --leak-check=full ./a.out -v
+  229  gcc AbdelrahmanAbounegm.c -g
+  230  valgrind --leak-check=full ./a.out -v
+  231  gcc AbdelrahmanAbounegm.c -g
+  232  valgrind --leak-check=full ./a.out -v
+  233  gcc AbdelrahmanAbounegm.c -g
+  234  valgrind --leak-check=full ./a.out -v
+  235  gcc AbdelrahmanAbounegm.c -g
+  236  valgrind --leak-check=full ./a.out -v
+  237  gcc AbdelrahmanAbounegm.c -g
+  238  valgrind --leak-check=full ./a.out -v
+  239  gcc AbdelrahmanAbounegm.c -g
+  240  valgrind --leak-check=full ./a.out -v
+  241  gcc AbdelrahmanAbounegm.c -g
+  242  valgrind --leak-check=full ./stepik/a.out -v
+  243  gcc AbdelrahmanAbounegm.c -g
+  244  valgrind --leak-check=full ./stepik/a.out -v
+  245  cp
+  246  cp a.out stepik/
+  247  valgrind --leak-check=full ./stepik/a.out -v
+  248  ./stepik/a.out
+  249  ./tester.sh 
+  250  gcc RavidaSaitova.c -g
+  251  valgrind ./a.out 
+  252  gcc RavidaSaitova.c -g
+  253  valgrind ./a.out 
+  254  ./a.out 
+  255  gcc RavidaSaitova.c -g
+  256  ./a.out 
+  257  del a.out 
+  258  rm a.out 
+  259  rm RavidaSaitova.c 
+  260  exit
+  261  gcc main.c 
+  262  gcc main.c -g
+  263  valgrind ./a.out 
+  264  gcc main.c -g
+  265  valgrind ./a.out 
+  266  gcc main.c -g
+  267  valgrind ./a.out 
+  268  gcc main.c -g
+  269  ./a.out 
+  270  gcc main.c -g
+  271  ./a.out 
+  272  gcc main.c -g
+  273  ./a.out 
+  274  gcc main.c -g
+  275  ./a.out 
+  276  gcc main.c -g
+  277  ./a.out 
+  278  valgrind ./a.out 
+  279  gcc main.c -g
+  280  valgrind ./a.out 
+  281  gcc main.c -g
+  282  valgrind ./a.out 
+  283  gcc main.c -g
+  284  valgrind ./a.out 
+  285  ./a.out 
+  286  valgrind ./a.out 
+  287  exit
+  288  gcc a.c
+  289  ./a.out
+  290  exit
+  291  sudo apt update
+  292  exit
+  293  BOT_NAME=nikitml VUE_APP_BOT_NAME=$BOT_NAME
+  294  npm
+  295  npm run serve
+  296  clear
+  297  tail AbdelrahmanAbounegmOutput1.txt 
+  298  tail -n AbdelrahmanAbounegmOutput1.txt 
+  299  tail -1 AbdelrahmanAbounegmOutput1.txt 
+  300  tail -1 AbdelrahmanAbounegmOutput*.txt 
+  301  tail AbdelrahmanAbounegmOutput*.txt 
+  302  exit
+  303  docker
+  304  exit
+  305  trace
+  306  trace-route
+  307  traceroute
+  308  whoami
+  309  hostname
+  310  gedit
+  311  jobs
+  312  cd "D:\University\Innopolis\Year 2\Semester 1\Operating Systems"
+  313  cd "/mnt/d/University/Innopolis/Year 2/Semester 1/Operating Systems"
+  314  ls
+  315  mkdir Exercises
+  316  git init
+  317  mkdir week01
+  318  cd week01
+  319  ls -r /usr/bin | grep 'gcc'
+  320  ls -r /usr/bin | grep 'gcc' > ex1.txt
+  321  history > ex2.txt

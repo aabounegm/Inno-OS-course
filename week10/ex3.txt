@@ -1,0 +1,37 @@
+-rw-rw-rw- 1 aabounegm aabounegm 0 Oct 23 13:37 _ex3.txt
+-rw-rw-rw- 1 aabounegm aabounegm 0 Oct 23 13:37 _ex3.txt
+-rwxrw-rwx 1 aabounegm aabounegm 0 Oct 23 13:37 _ex3.txt
+-rwxrwxrwx 1 aabounegm aabounegm 0 Oct 23 13:37 _ex3.txt
+
+
+The number specified for the permission is in octal, and the individual bits correspond to the rwx permission for each user type.
+For example:
+	7 = 111 = rwx
+	6 = 110 = rw-
+	4 = 100 = r--
+	0 = 000 = ---
+	where r=read, w=write, and x=execute
+The 3 numbers together represent the permission bits for user, group, and owner, respectively.
+	 u   g   o
+	rwx rwx rwx
+	
+- What does 660 mean for ex3.txt?
+	 u   g   o
+	110 110 000
+	rw- rw- ---
+
+	user and group can read and write (but not execute), and others cannot do anything
+
+– What does 775 mean for ex3.txt?
+	 u   g   o
+	111 111 101
+	rwx rwx r-x
+	
+	user and group can do anything, others can read and execute (but not write)
+
+– What does 777 mean for ex3.txt?
+	 u   g   o
+	111 111 111
+	rwx rwx rwx
+
+	Everyone can read, write, and execute the file

@@ -1,0 +1,81 @@
+Results:
+Buffer size: 256 bytes
+	File size: 1MB.txt		
+		real	0m0.118s
+		user	0m0.000s
+		sys	0m0.109s
+	File size: 1MB.txt (O_SYNC)		
+		real	0m0.096s
+		user	0m0.000s
+		sys	0m0.078s
+	File size: 10MB.txt		
+		real	0m0.767s
+		user	0m0.078s
+		sys	0m0.688s
+	File size: 10MB.txt (O_SYNC)		
+		real	0m0.767s
+		user	0m0.047s
+		sys	0m0.688s
+	File size: 100MB.txt		
+		real	0m7.266s
+		user	0m1.000s
+		sys	0m6.156s
+	File size: 100MB.txt (O_SYNC)		
+		real	0m7.327s
+		user	0m0.781s
+		sys	0m6.297s
+Buffer size: 1024 bytes
+	File size: 1MB.txt		
+		real	0m0.078s
+		user	0m0.000s
+		sys	0m0.063s
+	File size: 1MB.txt (O_SYNC)		
+		real	0m0.054s
+		user	0m0.000s
+		sys	0m0.031s
+	File size: 10MB.txt		
+		real	0m0.214s
+		user	0m0.016s
+		sys	0m0.188s
+	File size: 10MB.txt (O_SYNC)		
+		real	0m0.217s
+		user	0m0.047s
+		sys	0m0.172s
+	File size: 100MB.txt		
+		real	0m2.010s
+		user	0m0.172s
+		sys	0m1.781s
+	File size: 100MB.txt (O_SYNC)		
+		real	0m2.084s
+		user	0m0.188s
+		sys	0m1.859s
+Buffer size: 4096 bytes
+	File size: 1MB.txt		
+		real	0m0.049s
+		user	0m0.000s
+		sys	0m0.016s
+	File size: 1MB.txt (O_SYNC)		
+		real	0m0.026s
+		user	0m0.000s
+		sys	0m0.000s
+	File size: 10MB.txt		
+		real	0m0.078s
+		user	0m0.000s
+		sys	0m0.063s
+	File size: 10MB.txt (O_SYNC)		
+		real	0m0.079s
+		user	0m0.016s
+		sys	0m0.063s
+	File size: 100MB.txt		
+		real	0m0.638s
+		user	0m0.031s
+		sys	0m0.594s
+	File size: 100MB.txt (O_SYNC)		
+		real	0m0.625s
+		user	0m0.031s
+		sys	0m0.563s
+
+
+It can be observed that a bigger buffer leads to much faster transfer.
+The difference between small files in general (1MB vs 10MB) is somewhat small due to the majority of the time being used in the disk I/O overhead.
+Using the O_SYNC flag leads to slightly slower transfers, due to waiting for the transfer to complete to continue to the next one.

@@ -1,0 +1,13 @@
+The 3 ways of handling deadlock are: recovery, prevention, and avoidance.
+In recovery, the operating system lets the deadlock take place, and then attempts to fix the situation after that.
+To do this, it can try to take away a preemptive resource used by the process that is causing the deadlock.
+It can also use rollback, which means it should take checkpoints throughout the program's runtime to return to them.
+Lastly, it can simply kill a process causing the deadlock. This is the crudest method and should be avoided when possible.
+
+The 2nd way of handling is to try and prevent deadlocks by making sure that at least one of the 4 conditions will never be met.
+Each condition has its own way of preventing it, where some are easier than others.
+All of them limit the number of resources a process is allowed to have.
+
+The 3rd way, avoidance, is the best because it avoids a deadlock and doesn't limit resources like prevention.
+It only works if certain information is available beforehand, such as deciding whether granting the particular resource is safe or not.
+This requires a smart scheduling algorithm.
